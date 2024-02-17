@@ -33,7 +33,7 @@
   steam
   libreoffice-qt
   texstudio
-  texliveFull
+  (texlive.combine { inherit (texlive) scheme-medium amsmath chemformula geometry wrapfig colortbl; })
   hunspell
   hunspellDicts.uk_UA
   hunspellDicts.it_IT
