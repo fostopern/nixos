@@ -82,7 +82,7 @@
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
   programs.emacs.enable = true;
-  services.emacs.enable = true;
+  #services.emacs.enable = true;
   programs.ripgrep.enable = true; #sembra non workare
   programs.gh.enable = true;
   services.kdeconnect.enable = true;
