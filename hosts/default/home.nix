@@ -92,8 +92,8 @@
   };
   programs.git = {
     enable = true;
-    userName = "fostopern";
-    userEmail = "fostopern@tuta.io";
+    #userName = "fostopern";
+    #userEmail = "fostopern@tuta.io";
     aliases = {
       pu = "push";
       co = "checkout";
