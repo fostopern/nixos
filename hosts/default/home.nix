@@ -42,6 +42,7 @@
   nodejs
   protonvpn-cli_2
   quickemu
+  minecraft
   ];
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
@@ -86,6 +87,7 @@
   programs.ripgrep.enable = true; #sembra non workare
   programs.gh.enable = true;
   services.kdeconnect.enable = true;
+  programs.java.enable = true;
   #programs.texlive.enable = true;
   programs.btop = {
     enable = true;
